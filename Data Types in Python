@@ -1,0 +1,48 @@
+In Python we have a few different types of data
+
+Type         Name       Abbrebiation in Python    Representation
+Text:       String           str                   x = "Python" or 'Python'
+Numeric:    Integer          int                   x = 654; 18965464618; 5
+Numeric:    Float            ---                   x = 0.59; 53.0; 418.189
+Numeric:    Complex          ---                   x = 59j; 49.1j; 489j
+Sequence:   List             ---                   x = ["My", "sweet", "apple", 56, 0.3]
+Sequence:   Tuple            ---                   x = ("Cellphone", "radar", "Ham", "Chair")
+Sequence:   Range            ---                   x = range(8)
+Mapping:    Dictionarie      dict                  x = {"Name": "Teresa", "Age": 1}
+Set:        Set              ---                   x = {"bunch", "of", "words"}
+Set:        Forzenset        ---                   x = frozenset({'apple', 'pear', 'watermelon'}) 
+Boolean:    Boolean          bool                  x = True   x = False
+Binary:     Bytes            ---                   x = b'Hello'
+Binary:     Bytearray        ---                   x = bytearray(6)
+Binary:     Memoryview       ---                   x = memoryview(bytes(5))
+
+----------------------
+
+You can chance the data type
+
+X= str('Hello world')                             str
+X= int(6)                                         int
+X= float(96.0)                                    float
+X= complex(3j)                                    complex
+X= set(('my', 'sweet', 'apple'))                  set
+X= dict('name' = 'Teresa', age=1)                 dict
+X= list(('posxtelefono', 'butono', 'tablo'))      list
+X= tuple(('cellphone', 'button', 'table'))        tuple
+X= frozenset({'apple', 'pear', 'watermelon'})     frozenset
+X= range(5)                                       range
+X= bool(5)                                        bool
+X= bytes(5)                                       bytes
+X= bytearray(6)                                   bytearray
+X= memoryview(bytes(5))                           memoryview
+----------------------
+
+If you don't know the type of the data you can always use de function type()
+
+print(type(8))
+int
+
+print(type("Anyone can programm"))
+str
+
+print(type(995.065))
+float
