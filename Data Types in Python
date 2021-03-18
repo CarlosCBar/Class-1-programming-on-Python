@@ -1,4 +1,4 @@
-In Python we have a few different types of data
+In Python there are different types of data
 
 Type         Name       Abbrebiation in Python    Representation
 Text:       String           str                   x = "Python" or 'Python'
@@ -18,7 +18,7 @@ Binary:     Memoryview       ---                   x = memoryview(bytes(5))
 
 ----------------------
 
-You can chance the data type
+You can chance the data type by using
 
 X= str('Hello world')                             str
 X= int(6)                                         int
