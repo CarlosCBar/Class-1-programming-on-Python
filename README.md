@@ -1,4 +1,1 @@
-# Class-1-programming-on-Python (Data type)
-I created this first project to teach de basics of Python
-
-I want to make some basic Python classes for anyone that want to learn how to program 
+Programming on Python Data type
